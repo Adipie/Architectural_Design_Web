@@ -6,7 +6,7 @@
 #middle_home {
 	/*background: #f5f4f1;*/
 	background-image: url('../images/kitchen.gif');
-	height: 500px;
+	height: 515px;
 }
 
 #middle_gallery {
@@ -15,7 +15,7 @@
 }
 
 #middle_contact {
-	height: 500px;
+	height: 515px;
 	background: #f5f4f1;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .selected{
-	color: #000000;
+	color: black !important;
 }
 
 #middle_gallery p{
@@ -85,6 +85,7 @@ h2 {
 	text-indent: 200px;
 	padding-top: 30px;
 	font-family: helvetica;
+	margin-top: 0;
 }
 
 #middle_about div {
@@ -103,5 +104,4 @@ h2 {
 	margin-top: 40px;
 
 }
-
 
