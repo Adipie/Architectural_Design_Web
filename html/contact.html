@@ -17,7 +17,25 @@
 	<div id="middle_contact">
 		<h2>צור קשר</h2>
 		<div id="form">	
-			<form>
+			<script type="text/javascript">
+				function validate() {
+					if (document.contact.name.value =="") {
+						alert("אנא הכנס שם");
+						document.contact.name.focus();
+					}
+
+					if (document.contact.email.value =="") {
+						alert("אנא הכנס כתובת דואר אלקטרוני");
+						document.contact.email.focus();
+					}
+
+					if (document.contact.content.value =="") {
+						alert("אנא הכנס את סיבת הפנייה");
+						document.contact.content.focus();
+					}
+				}
+			</script>
+			<form onsubmit="validate();" name="contact">
 				שם: <br><input type='text' name='name'><br>
 				דוא"ל: <br><input type='text' name='email'><br>
 				תיאור פנייה: <br><textarea rows='6' cols='50' type='text' name='content'></textarea><br>
